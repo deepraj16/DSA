@@ -8,7 +8,6 @@ public:
         }
         return s.substr(left+1,right-left-1);
 
-
     }
     string longestPalindrome(string s) {
         string longest=""; 
