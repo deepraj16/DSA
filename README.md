@@ -1,3 +1,3 @@
 --- 
-DSA question 400 questions
+DSA question 300 questions
 ---
