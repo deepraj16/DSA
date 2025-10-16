@@ -5,7 +5,6 @@ public:
         int cnt=1;
         for(int i=0;i<s.size();i++){
               int cnt=1;
-              
             while(s[i]==s[i+1]){
                 cnt++; 
                 i++;
