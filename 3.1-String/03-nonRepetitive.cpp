@@ -3,7 +3,7 @@
 class Solution {
   public:
     bool nonRepetitive(string S) {
-        // code here.
+        
          set<char>st; 
          char start=S[0];
          st.insert(start);
