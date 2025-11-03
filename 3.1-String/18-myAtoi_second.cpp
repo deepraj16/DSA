@@ -18,9 +18,7 @@ public:
             if(isalpha(s[i]) || s[i]=='.' || (sy && s[i]==' ')){
                 break;
             }
-             while(isdigit(s[i])){
-             int curr=s[i] - '0' ;
-             flag=1;
+            
              if(ans> (INT_MAX-curr)/10 ){
                 if(symoble[0]=='-') return INT_MIN;
                 return INT_MAX;
