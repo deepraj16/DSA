@@ -19,13 +19,12 @@ bool isreduant(string a,stack<char>s){
                     }
                     s.pop();
                     }
-                    if(isredunt==true){
+        
                         return true;
                         s.pop();
                     }
                 }
         }
-
     }
     return false;
 }
