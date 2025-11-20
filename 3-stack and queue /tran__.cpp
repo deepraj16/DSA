@@ -9,8 +9,7 @@ public:
                 st.pop();
             if (!st.empty())
                 pse[i] = st.top(); 
-            st.push(i);
-        }
+
         return pse;
     }
 
