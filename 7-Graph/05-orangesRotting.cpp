@@ -18,7 +18,6 @@ bool is_fresh(vector<vector<int>>& grid,vector<vector<bool>>visted,int i,int j,i
                 }
             }
         }
-    
         int dx[4]={-1,1,0,0}; 
         int dy[4]={0,0,-1,1};
         int time=1;
