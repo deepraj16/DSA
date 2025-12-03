@@ -10,7 +10,6 @@ public:
             }
         }
         int n=ans.size();
-        
         for(int i=0;i<ans.size()/2;i++){
             if(ans[i] != ans[n-i-1]){
                 return false;
