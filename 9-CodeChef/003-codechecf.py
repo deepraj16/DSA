@@ -3,7 +3,6 @@ def solve():
     import sys
     input = sys.stdin.read
     data = input().split()
-    
     T = int(data[0])
     index = 1
     
