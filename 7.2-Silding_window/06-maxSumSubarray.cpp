@@ -20,11 +20,3 @@ int maxSumSubarray(int arr[], int n, int k) {
     return maxSum;
 }
 
-int main() {
-    int arr[] = {2, 1, 5, 1, 3, 2};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    int k = 3;
-
-    cout << "Maximum sum: " << maxSumSubarray(arr, n, k);
-    return 0;
-}
