@@ -35,13 +35,7 @@ class Disjoin{
                  rank[u_par]+=1;
             }
         }
-        int number_parent(){
-            set<int>s;
-            for(int  i=0;i<parent.size();i++){
-                s.insert(find_par(i));
-            }
-            return s.size();
-        }
+       
 };
 
 class Solution {
