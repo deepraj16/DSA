@@ -12,11 +12,4 @@ bool say(string& d,int i,int j){
        i++;
        j--;
        return say(d,i,j);
-        
-}
 
-int main(){
-    string d="aabbaa";
-  cout<< say(d,0,d.size()-1);
-   
-}
