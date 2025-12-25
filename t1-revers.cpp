@@ -9,7 +9,5 @@ bool say(string& d,int i,int j){
             return false;
         }
         
-       i++;
-       j--;
-       return say(d,i,j);
+  
 
